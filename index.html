@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h1 class="logo">Ishaq</h1>
+        </div>
+        <div class="navbar-right">
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-left">
+            <img src="assets/images/image.jpg" alt="Profile" class="hero-image" />
+        </div>
+        <div class="hero-right">
+            <div class="hero-content">
+                <h1>Muhammad Ishaq</h1>
+                <h2>Software Engineer</h2>
+                <p>Specialized in building scalable server-side applications using Node.js, Express.js, and MongoDB.
+                    Passionate about
+                    delivering efficient backend solutions with a focus on performance and reliability
+                </p>
+                <a href="assets/M_Ishaq.pdf" download="Muhammad_Ishaq_Resume.pdf" class="btn">Download Resume</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <br>
+            <h2>About Me</h2>
+            <p class="intro">
+            I'm a passionate Software Engineer with a strong focus on backend development. I specialize in building scalable and
+            efficient server-side applications using Node.js, Express.js, and MongoDB.
+            Skilled in API design, authentication, and database management, I also have working knowledge of HTML, CSS, and
+            JavaScript, making me comfortable across the full stack. I’m always eager to learn, improve, and build impactful
+            solutions.
+            </p>
+
+            <!-- Skills -->
+            <div class="skills">
+                <h3>Skills</h3>
+                <div class="skill">
+                    <span>Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Express.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>MongoDB</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vision and Mission Cards -->
+            <div class="vision-mission-cards">
+                <div class="vm-card">
+                    <h3>My Vision</h3>
+                    <p>
+                        To become a leading backend developer recognized for crafting performant and secure systems that
+                        power
+                        real-world applications.
+                    </p>
+                </div>
+                <div class="vm-card">
+                    <h3>My Mission</h3>
+                    <p>
+                        To continuously grow my technical skills, contribute to meaningful projects, and build solutions
+                        that solve
+                        real-world problems with impact and scalability.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="projects-container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>YouTube Style Backend Application</h3>
+                    <p>Built a MERN stack backend API simulating YouTube functionality. Designed MongoDB schemas for videos, users, playlists,
+                    likes, and comments. Implemented secure authentication, CRUD operations, and relational data modeling.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This responsive portfolio is built using HTML, CSS, and JavaScript, featuring a mobile-friendly navigation menu,
+                    animated skill bars, and a clean, modern layout.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Bootstrap 5 Responsive Website</h3>
+                    <p>Developed a responsive and modern web interface using Bootstrap 5. The project demonstrates proficiency in Bootstrap’s
+                    grid system, components, and utilities to create a clean, mobile-first design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Peshawar, Kpk, Pakistan</p>
+                <p><i class="fas fa-phone"></i><a href="tel:+923188165206">+92 3188165206</a></p>
+                <p><i class="fas fa-envelope"></i><a href="maitlo:kmishaq08@gmail.com">kmishaq08@gmail.com</a> </p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/Ishaq08">https://github.com/Ishaq08</a></p>
+                <p><i class="fab fa-linkedin"></i> <a
+                        href="https://www.linkedin.com/in/muhammad-ishaq-aa122a286/ ">https://www.linkedin.com/in/muhammad-ishaq/</a>
+                </p>
+            </div>
+            <br>
+            <p>Let's get in touch. Send me a message:</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Ishaq. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const burger = document.getElementById('burger');
+        const navLinks = document.getElementById('navLinks');
+
+    </script>
+
+
+</body>
+
+</html>
