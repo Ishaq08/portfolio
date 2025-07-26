@@ -187,6 +187,15 @@
             navLinks.classList.toggle('nav-active');
             burger.classList.toggle('toggle');
         });
+
+        // Close burger menu when a nav link is clicked
+        const navLinkItems = document.querySelectorAll('#navLinks li a');
+        navLinkItems.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('nav-active');
+                burger.classList.remove('toggle');
+            });
+        });
     </script>
 
 
